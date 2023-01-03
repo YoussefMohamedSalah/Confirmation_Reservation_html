@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Reservation Confirmation - Reif</title>
+	<style>
+		@media screen and (min-width: 200px) {
+			.paragraph {
+				width: 100%;
+			}
+		}
+
+		@media screen and (min-width: 800px) {
+			.paragraph {
+				width: 80px;
+			}
+
+			.main-section {
+				font-size: 1.4rem;
+			}
+		}
+	</style>
+</head>
+
+<body style="
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      width: 100%;
+    ">
+	<div style="display: flex; width: 100%">
+		<div style="
+          width: 300px;
+          background-image: url('https://i.ibb.co/Bfyq9mV/reif-reservation2-min.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center;
+        "></div>
+		<div style="width: 100%">
+			<div style="display: flex; justify-content: center; width: 100%">
+				<div style="width: 100%; margin: 0 auto">
+					<div style="
+                max-width: 200px;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 7rem;
+              ">
+						<img style="width: 100%" src="https://i.ibb.co/HnZf7C0/output-onlinepngtools.png" alt="logo" />
+					</div>
+					<div style="
+                margin-top: 4rem;
+                display: flex;
+                justify-content: flex-start;
+                text-align: left;
+                font-weight: 600;
+                width: 100%;
+              ">
+						<div style="margin: 0 2.5rem; width: 100%" class="main-section">
+							<p>Dear {{customerName}},</p>
+							<p>Thank you for booking at Reif Kushiyaki Cairo!</p>
+							<p style="max-width: 680px">
+								This message is to re-confirm your reservation for
+								{{numberOfGuests}} guests at {{reservationTime}}.
+							</p>
+							<p style="max-width: 750px">
+								For any special requests or changes to your booking please
+								contact us on
+								<a style="color: #4f5cd6" href="tel:0128 277 5177">0128 044 6862
+								</a>
+								or via email at
+								<a style="color: #4f5cd6"
+									href="mailto:cairo@reifkushiyaki.com">cairo@reifkushiyaki.com</a>
+							</p>
+							<span style="margin-top: 2rem">We look forward to seeing you!</span>
+							<p style="margin-top: 0">The Reif Kushiyaki Cairo team</p>
+						</div>
+					</div>
+					<!-- ######################################################################################## -->
+					<div style="
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			padding-top: 0.5rem;
+		">
+						<a href="https://web.facebook.com/shinkocairo/?_rdc=1&_rdr"><img
+								style="width: 100%; height: 35px;background-color: black; border-radius: 12px;"
+								src="../reconfirm_btn.png" alt="facebook" /></a>
+					</div>
+					<!-- ######################################################################################## -->
+					<div style="
+                font-weight: 700;
+                margin-left: 1.9rem;
+                margin-top: 4rem;
+                max-width: 730px;
+              ">
+						<div style="
+                  display: flex;
+                  justify-content: space-between;
+                  margin: 0 1rem;
+                ">
+							<p style="margin-top: 0; font-size: 1.4rem">Find us Here</p>
+							<div>
+								<a href="https://web.facebook.com/Reifkushiyakicairo/?_rdc=1&_rdr" target="_blank"><img
+										style="width: 30px; height: 30px; border-radius: 5px"
+										src="https://i.ibb.co/9tdjnt5/facebook.png" alt="" /></a>
+								<a href="https://www.instagram.com/Reifkushiyakicairo/" target="_blank"><img
+										style="width: 30px; height: 30px; border-radius: 5px"
+										src="https://i.ibb.co/zSwqxzg/instagram.png" alt="" /></a>
+							</div>
+						</div>
+						<div style="max-width: 700px; margin: 0 1rem">
+							<iframe
+								src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13819.779988068422!2d31.4027838!3d30.0097357!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf0bb0eac65381139!2sReif%20Kushiyaki%20Cairo!5e0!3m2!1sen!2seg!4v1672714012044!5m2!1sen!2seg"
+								width="700" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+						<p style="text-align: center">
+							<a target="_blank" style="color: #4f5cd6"
+								href="https://www.google.com/maps/place/Reif+Kushiyaki+Cairo/@30.0097357,31.4027838,15z/data=!4m5!3m4!1s0x0:0xf0bb0eac65381139!8m2!3d30.0090063!4d31.4018097">CLICK
+								HERE TO VIEW MAP ONLINE</a>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

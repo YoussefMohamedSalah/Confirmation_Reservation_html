@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation Confirmation - Reif</title>
+    <style>
+        @media screen and (min-width: 200px) {
+            .headImg {
+                height: 150px;
+            }
+        }
+
+        @media screen and (min-width: 400px) {
+            .headImg {
+                height: 300px;
+            }
+
+            .main_section {
+                line-height: 2.2rem;
+            }
+        }
+
+        @media screen and (max-width: 399px) {
+
+            .main_section {
+                font-size: 1.4rem;
+                line-height: 2.5rem;
+            }
+        }
+
+        @media screen and (min-width: 800px) {
+            .headImg {
+                height: 500px;
+            }
+
+        }
+    </style>
+</head>
+
+<body style="margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, Helvetica, sans-serif;">
+    <div class="headImg" style="width: 100%; overflow: hidden;"> <img style="width: 100%; ; "
+            src="https://i.ibb.co/qsd628b/reif-reservation-min.jpg" alt="Kazoku Dining Area" /> </div>
+    <div style=" display: flex; justify-content: center; ">
+        <div style="width: 100%; max-width: 980px; margin-top: 4rem;">
+            <div style="margin-top: 2rem; font-size: 1.5rem; font-weight: 700; margin: 0 1rem; ">
+                <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap">
+                    <div style="margin-right: 1.3rem; ">Reservation Name :</div>
+                    <div>{{customerName}}</div>
+                </div>
+                <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap">
+                    <div style="margin-right: 11.2rem">Date :</div>
+                    <div>{{reservationDate}}</div>
+                </div>
+                <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap">
+                    <div style="margin-right: 11rem">Time :</div>
+                    <div>{{reservationTime}}</div>
+                </div>
+                <div style="margin-top: 1.5rem; display: flex; flex-wrap: wrap">
+                    <div style="margin-right: 2.2rem">Number of guests:</div>
+                    <div>{{numberOfGuests}}</div>
+                </div>
+                <div style="margin-top: 1rem; display: flex; flex-wrap: wrap; align-items: center">
+                    <div style="margin-right: 9rem">Location:</div>
+                    <div style="font-size: 1.3rem"> 5A By The Waterway, New Cairo </br> <a style="color: #4f5cd6"
+                            href="https://www.google.com/maps/place/Reif+Kushiyaki+Cairo/@30.0097357,31.4027838,15z/data=!4m5!3m4!1s0x0:0xf0bb0eac65381139!8m2!3d30.0090063!4d31.4018097">View
+                            On Map</a> </div>
+                </div>
+            </div>
+            <div style="margin-top: 5rem;font-size: 1.5rem; font-weight: 500; margin-left: 1rem; margin-right: 1rem;
+                font-weight: 600;">
+                <p style="margin-bottom: 0.5rem;">We kindly ask you to follow our House Rules:</p>
+                <ul style="margin-top: 2rem; padding-right: 1rem; " class="main_section">
+                    <li>Dress Code: Casual</li>
+                    <li>Guests intoxicated or under the influence of drugs will not be allowed entry.</li>
+                    <li>Management reserves the right to refuse entry at their own discretion.</li>
+                    <li>Please arrive on time to secure your reservation. Reif Kushiyaki has a 30-minute table holding
+                        policy.</li>
+                    <li>If you wish to make any changes to your reservation, please contact us on <a style="color:
+                            #4f5cd6" href="tel:0128 044 6862">0128 044 6862</a> or via email at <a style="color:
+                            #4f5cd6" href="mailto:cairo@reifkushiyaki.com">cairo@reifkushiyaki.com</a> </li>
+                </ul>
+                <div style="display: flex; justify-content: end;">
+                    <div style="max-width: 250px; "> <img style="width: 100%"
+                            src="https://i.ibb.co/C6byvBb/astroboy.png" alt="logo" /> </div>
+                </div>
+                <div style="display: flex; justify-content: center; padding-top: 1rem; margin-bottom: 6rem;">
+                    <div style="max-width: 250px; margin-left: auto; margin-right: auto; margin-bottom: 5rem;"> <img
+                            style="width: 100%" src="https://i.ibb.co/HnZf7C0/output-onlinepngtools.png" alt="logo" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

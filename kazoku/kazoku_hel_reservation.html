@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Reservation Confirmation - Kazoku</title>
+	<style>
+		@media screen and (min-width: 400px) {
+			.headImg {
+				height: 50vh;
+			}
+
+			.main_section {
+				line-height: 2.2rem;
+				line-height: 2.2rem;
+			}
+		}
+
+		@media screen and (max-width: 399px) {
+			.headImg {
+				height: 30vh;
+			}
+
+			.main_section {
+				font-size: 1.4rem;
+				line-height: 2.5rem;
+			}
+		}
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0; box-sizing: border-box;  font-family: Montserrat, Helvetica, sans-serif;">
+	<div style="
+        background-image: url('https://i.ibb.co/3FrHXVv/kazoku-confirmation-cropped.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+      ">
+		<div style="width: 100%; max-width: 1100px">
+			<img style="max-height: 45vh; width: 100%; margin-top: 6rem" src="./Kazoku Dining Area .jpg"
+				alt="Kazoku Dining Area" />
+			<div style="
+            margin-top: 2rem;
+						padding-top: 2rem;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin: 0 1rem;
+          ">
+				<div style="margin-top: 1rem; display: flex; flex-wrap: wrap">
+					<div style="margin-right: 1.8rem">Reservation Name :</div>
+					<div>{{customerName}}</div>
+				</div>
+				<div style="margin-top: 1rem; display: flex; flex-wrap: wrap">
+					<div style="margin-right: 11rem">Date :</div>
+					<div>{{reservationDate}}</div>
+				</div>
+				<div style="margin-top: 1rem; display: flex; flex-wrap: wrap">
+					<div style="margin-right: 10.8rem">Time :</div>
+					<div>{{reservationTime}}</div>
+				</div>
+				<div style="margin-top: 1rem; display: flex; flex-wrap: wrap">
+					<div style="margin-right: 2.7rem">Number of guests:</div>
+					<div>{{numberOfGuests}}</div>
+				</div>
+				<div style="
+              margin-top: 1rem;
+              display: flex;
+              flex-wrap: wrap;
+              align-items: center;
+            ">
+					<div style="margin-right: 9rem">Location:</div>
+					<div style="font-size: 1.3rem">
+						Swanlake Compound, 1st Settlement, New Cairo, Cairo Governorate
+						<br />
+						<a href="https://goo.gl/maps/zGUKKhEXmitpMg9N9">View On Map</a>
+					</div>
+				</div>
+			</div>
+			<div style="
+            margin-top: 5rem;
+            font-size: 1.5rem;
+            font-weight: 500;
+            margin-left: 1rem;
+            margin-right: 1rem;
+          ">
+				<p style="margin-bottom: 0.5rem">
+					We kindly ask you to follow our House Rules:
+				</p>
+				<ul style="margin-top: 0; padding-right: 1rem; line-height: 2.5rem" class="main_section">
+					<li>Age restriction: 21+ after 6 PM</li>
+					<li>
+						Dress Code: Smart Casual (Shorts or flip-flops; uniforms or
+						athletic sportswear will not be admitted).
+					</li>
+					<li>
+						Guests intoxicated or under the influence of drugs will not be
+						allowed entry.
+					</li>
+					<li>
+						Management reserves the right to refuse entry at their own
+						discretion.
+					</li>
+					<li>
+						Please arrive on time to secure your reservation. KAZOKU has a
+						30-minute table holding policy.
+					</li>
+					<li>
+						If you wish to make any changes to your reservation, please
+						contact us on <a href="tel:0127 000 4877">0127 000 4877</a> or via
+						email at
+						<a href="mailto:reservations@kazokuegypt.com">reservations@kazokuegypt.com</a>
+					</li>
+				</ul>
+				<div style="
+              display: flex;
+              justify-content: center;
+              padding-top: 1rem;
+              margin-bottom: 6rem;
+            ">
+					<p>ARIGATO!</p>
+				</div>
+				<div style="
+              max-width: 150px;
+              margin-left: auto;
+              margin-right: auto;
+              margin-top: 5rem;
+              margin-bottom: 5rem;
+            ">
+					<img style="width: 100%" src="https://i.ibb.co/Q64sWSQ/Transparent-Kazoku.png" alt="logo" />
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
